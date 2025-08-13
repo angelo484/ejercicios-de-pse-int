@@ -1,0 +1,470 @@
+Algoritmo nombre_apellido
+	//Definir tipos de variables
+	Definir nombre_cliente Como Caracter
+	//Tomar datos o asignacion de variables
+	Escribir "Hola--- ";
+	nombre_cliente<-"Angelo Melo"
+	//Procesar datos
+	saludo <- "Bienvenido... " + nombre_cliente
+	//Mostrar resultados
+	Escribir saludo
+	
+FinAlgoritmo
+
+Algoritmo edad
+	// 1. definir tipo de variables
+	Definir suEdad Como Entero
+	//tomar datos
+	Escribir "digite su edad"
+	Leer suEdad
+	//mostrar resultados
+	Escribir "tienes ", suEdad , " a�os"
+	
+FinAlgoritmo
+Algoritmo precio
+    // definir codigo
+	Definir elPrecio Como Real
+	//tomar datos
+	Escribir "digite su numero";
+	Leer elPrecio
+	//mostrar resultados
+	Escribir "El precio del articulo es $",elPrecio
+	
+FinAlgoritmo
+Algoritmo aprendiz
+	// 1. definir tipo de variables
+	Definir nombre_aprendiz Como Caracter;
+	Definir apellido_aprendiz Como Caracter;
+	// 2. tomar datos o asignacion de variables
+    Escribir "digite nombre";
+	Leer nombre_aprendiz
+	Escribir "Digite apellido_aprendiz";
+	Leer apellido_aprendiz
+	//proceso datos 
+	saludo <- "bienvenido ..." + nombre_aprendiz + " " + apellido_aprendiz
+	//mostrar resultado
+	Escribir saludo
+FinAlgoritmo
+
+
+
+
+Algoritmo ACTIVIDAD
+	//definir codigo
+	Definir Letra Como Caracter
+	//tomar datos
+	Escribir "digite una letra"
+	Leer Letra
+	//mostrar resultado
+	Escribir "la letra asignada es:", Letra
+	
+	
+FinAlgoritmo
+
+Algoritmo sumanumeros
+	//definir codigo
+	Definir numero1, numero2, numero3, numero4, numero5 Como Real;
+	//tomar y procesar datos
+	Escribir "digite el primer numero";
+	Leer numero1
+	Escribir "digite el segundo numero";
+	Leer numero2
+	Escribir "digite el tercer numero";
+	Leer numero3
+	Escribir "digite el cuarto numero";
+	Leer numero4
+	Escribir "digite el quinto numero";
+	Leer numero5
+	suma <- numero1 + numero2 + numero3 + numero4 + numero5
+	//mostar resultado
+	Escribir "la suma de los cinco numeros es:", suma
+	
+	
+FinAlgoritmo
+
+
+Algoritmo promedionotas
+	//definir codigo
+	Definir nota1, nota2, nota3, nota4, nota5, nota6, nota7, nota8, nota9, suma, promedio Como Real;
+	//tomar datos
+	Escribir "digite la nota 1 (materia 1):"
+	Leer nota1
+	Escribir "digite la nota 2 (materia 1):"
+	Leer nota2
+	Escribir "digite la nota 3 (materia 1):"
+	Leer nota3
+	
+	Escribir "digite la nota 1 (materia 2):"
+	Leer nota1
+	Escribir "digite la nota 2 (materia 2):"
+	leer nota2
+	Escribir "digite la nota 3 (materia 2):"
+	Leer nota3
+	
+	Escribir "digite la nota 1 (materia 3):"
+	Leer nota1
+	Escribir "digite la nota 2 (materia 3):"
+	Leer nota2
+	Escribir "digite la nota 2 (materia 3):"
+	Leer nota3
+	//mostrar resultado
+	suma <- nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9
+	promedio <- suma / 9
+	Escribir "el promedio general de las tres materias es:", promedio
+	
+FinAlgoritmo
+
+
+Algoritmo multiplicar_precio
+	//definir variables
+	Definir precioUnitario, cantidad, totalSinIva, Iva, TotalConIva Como Real;
+	Escribir "ingrese el precio unitario del producto:";
+	Leer precioUnitario
+	
+	Escribir "ingrese la catidad de productos:";
+	Leer cantidad
+	
+	TotalSinIva <- precioUnitario * cantidad
+	Iva <- TotalSinIva * 0.15
+	TotalConIva <- TotalSinIva + Iva
+	
+	Escribir " Total sin Iva:", TotalSinIva;
+	Escribir " IVA (15%):", Iva;
+	Escribir " total con IVA:", TotalConIva
+FinAlgoritmo
+
+
+
+Algoritmo descuentodeprenda
+	//definir variable
+	Definir porcentajeDeDescuento, precioOriginal, montoDeDescuento, PrecioFinal Como Real;
+	//tomar datos
+	Escribir "ingrese el precio original de el objeto:";
+	Leer precioOriginal
+	
+	Escribir "ingrese elnporcentaje del descuento.";
+	Leer porcentajeDeDescuento
+	//mostrar resultado
+	montoDeDescuento <- precioOriginal * (porcentajeDeDescuento / 100);
+	PrecioFinal <- precioOriginal - montoDeDescuento
+	
+	Escribir "descuento", " ", montoDeDescuento
+	Escribir "precio final", " ", PrecioFinal
+	
+	
+	
+FinAlgoritmo
+
+Algoritmo area
+	//definir codifo
+	Definir areaDelRectangulo, base, altura Como real;
+	//tomar datos
+	Escribir "digite la base del rectangulo:" base;
+	Leer base
+	Escribir "digite la altura del rectangulo:" altura;
+	Leer altura
+	//mostrar resultado
+	areaDelRectangulo <- base * altura;
+	Escribir " el area del rectangulo es:", areaDelRectangulo;
+	Leer areaDelRectangulo
+	
+	
+	
+FinAlgoritmo
+
+
+Algoritmo temperatura
+	//definir codigo
+	Definir gradosCelsius, gradosFahrenheit Como Real
+	//tomar datos
+	Escribir "digite la temperatura en grados celsius:", gradosCelsius;
+	Leer gradosCelsius
+	//mostrar resultado
+	gradosFahrenheit <- (gradosCelsius * 9 / 5) + 32 
+	Escribir "la temperatura en grados fahrenhait es de:" gradosFahrenheit;
+	Leer gradosFahrenheit
+	
+FinAlgoritmo
+
+Algoritmo VENTAS
+	//definir codigo
+	Definir totalLunes, TotalMartes, TotalMiercoles, TotalJueves, TotalViernes, TotalSabado, TotalDomingo, Totalventas Como Real
+	//tomar datos
+	Escribir "total de ventas (lunes):";
+	Leer totalLunes
+	Escribir "total de ventas (martes):";
+	Leer TotalMartes
+	Escribir "total de ventas (miercoles):";
+	Leer TotalMiercoles;
+	Escribir "total de ventas (jueves):";
+	Leer TotalJueves;
+	Escribir "total de ventas (viernes):";
+	leer TotalViernes
+	Escribir "total de ventas (sabado):";
+	Leer TotalSabado
+	Escribir "total de ventas (domingo):";
+	Leer TotalDomingo
+	//mostrar resultado
+	Totalventas <- totalLunes + TotalMartes + TotalMiercoles + TotalJueves + TotalViernes + TotalSabado + TotalDomingo;
+	Escribir "el total de ventas en la semana es:", Totalventas;
+	Leer Totalventas
+	
+	
+FinAlgoritmo
+Algoritmo gastos_ingresos
+	//definir codigo
+	Definir gastos, ingresos, gananciNeta Como Real;
+	//tomar datos
+	Escribir "digite su ingresos de dinero:";
+	Leer ingresos
+	Escribir "digite sus gastos:";
+	Leer gastos
+	//mostrar resultado
+	gananciNeta <- ingresos - gastos;
+	Escribir " su ganancia neta es:",gananciNeta;
+	
+FinAlgoritmo
+
+Algoritmo edad
+	//definir codigo
+    Definir diaactual, mesactual, a�oactual, fechaNacimiento, dia, mes, a�o, edadActual Como Real;
+	//tomar datos
+	Escribir "digite su fecha de nacimiento:";
+	Escribir "dia:";
+	Leer dia 
+	Escribir "mes:";
+	Leer mes
+	Escribir "a�o:";
+	Leer a�o
+	Escribir "digite la fecha actual.";
+	Escribir "dia:";
+	leer diaactual
+	Escribir "mes:";
+	Leer mesactual
+	Escribir "a�o:";
+	Leer a�oactual
+	//mostrar resultado
+	edadActual <- diaactual - dia;
+	edadActual <- mesactual - mes;
+	edadActual <- a�oactual - a�o;
+	Escribir "su edad acual es:", edadActual
+FinAlgoritmo
+
+Algoritmo costo_total_por_tiempo
+	// Definir variables
+	Definir horas_trabajadas, tarifa_hora, costo_total Como Real
+	
+	// Solicitar datos al usuario
+	Escribir "Digite la cantidad de horas trabajadas:"
+	Leer horas_trabajadas
+	Escribir "Digite la tarifa por hora:"
+	Leer tarifa_hora
+	
+	// Calcular costo total
+	costo_total <- horas_trabajadas * tarifa_hora
+	
+	// Mostrar resultado
+	Escribir "El costo total por ", horas_trabajadas, " horas es: $", costo_total
+FinAlgoritmo
+
+
+Algoritmo masa
+	//definir codigo
+	Definir masacorporal, peso1, peso2, altura1, altura2 Como Real;
+	//tomar datos
+	Escribir "peso persona 1:";
+	Leer peso1; 
+	Escribir "peso persona 2:";
+	Leer peso2
+	Escribir "altura persona 1:";
+	Leer altura1
+	Escribir "altura persona 2.";
+	Leer altura2
+	//mostrar resultado
+	masacorporal <- (peso1 + peso2) / (altura1 + altura2);
+	Escribir "la mas corporal de las dos personas es:", masacorporal
+	
+	
+FinAlgoritmo
+
+Algoritmo sin_titucalorias_semana
+	// Definir variables
+	Definir calorias_dia, total_dia, total_semana Como Real
+	Definir i, j Como Entero
+	// Empezamos el contador de calor�as semanales en 0
+	total_semana <- 0
+	
+	// Recorre los 7 d�as de la semana
+	Para i <- 1 Hasta 7 Con Paso 1 Hacer
+		total_dia <- 0
+		Escribir "D�a ", i, ""
+		// Pedir las comidas del d�a (ejemplo: 3 comidas principales)
+		Para j <- 1 Hasta 3 Con Paso 1 Hacer
+			Escribir "Ingrese calor�as de la comida ", j, ":";Leer calorias_dia
+			total_dia <- total_dia + calorias_dia
+		FinPara
+		// Mostramos cu�ntas calor�as comiste en el d�a i
+		Escribir "Total de calor�as consumidas en el d�a ", i, ": ", total_dia
+		// Sumamos esas calor�as al acumulado de la semana
+		
+		total_semana <- total_semana + total_dia
+	FinPara
+	
+	// Separador para la presentaci�n en pantalla
+	Escribir ""
+	// Mostrar total semanal
+	Escribir "Total de calor�as consumidas en la semana: ", total_semanalo
+	
+FinAlgoritmo
+
+
+Algoritmo promedio_velocidad_carros
+		// Definir variables
+		Definir distancia1, tiempo1, distancia2, tiempo2, velocidad1, velocidad2, promedio Como Real;
+		
+		// Datos del primer carro
+		Escribir "Ingrese la distancia recorrida por el primer carro (km):";Leer distancia1
+		Escribir "Ingrese el tiempo que tom� el primer carro (horas):";Leer tiempo1
+		
+		// Datos del segundo carro
+		Escribir "Ingrese la distancia recorrida por el segundo carro (km):";Leer distancia2
+		Escribir "Ingrese el tiempo que tom� el segundo carro (horas):";Leer tiempo2
+		
+		// Calcular velocidades
+		velocidad1 <- distancia1 / tiempo1
+		velocidad2 <- distancia2 / tiempo2
+		
+		// Calcular promedio de velocidades
+		promedio <- (velocidad1 + velocidad2) / 2
+		
+		// Mostrar resultados
+		Escribir "La velocidad del primer carro es: ", velocidad1, " km/h"
+		Escribir "La velocidad del segundo carro es: ", velocidad2, " km/h"
+		Escribir "El promedio de velocidad entre los dos carros es: ", promedio, " km/h"
+FinAlgoritmo
+	
+
+Algoritmo UNIDADESVENDIDAS
+	// Declarar variables
+    Definir unidades1, unidades2, unidades3 Como Entero
+    Definir precio1, precio2, precio3 Como Real
+    Definir total1, total2, total3, totalPagar Como Real
+	
+    // Asignar precios 
+	Escribir "precio1:";
+	Leer precio1
+	Escribir "precio2:";
+    Leer precio2
+	Escribir "precio3:";
+	leer precio3
+	
+    // Leer unidades vendidas de cada producto
+    Escribir "Ingrese unidades vendidas del Producto 1:"
+    Leer unidades1
+	
+    Escribir "Ingrese unidades vendidas del Producto 2:"
+    Leer unidades2
+	
+    Escribir "Ingrese unidades vendidas del Producto 3:"
+    Leer unidades3
+	
+    // Calcular total por producto
+    total1 <- unidades1 * precio1
+    total2 <- unidades2 * precio2
+    total3 <- unidades3 * precio3
+	
+    // Calcular total a pagar
+    totalPagar <- total1 + total2 + total3
+	
+    // Mostrar resultados
+    Escribir "Total por Producto 1: $", total1
+    Escribir "Total por Producto 2: $", total2
+    Escribir "Total por Producto 3: $", total3
+    Escribir ""
+    Escribir "Total a pagar por los tres productos: $", totalPagar
+
+	
+FinAlgoritmo
+
+
+
+Algoritmo CalcularTiempoTotal
+	
+	// Declarar variables
+	Definir tiempo1, tiempo2, tiempo3 Como Real
+	Definir tiempoTotal Como Real
+	
+	// Leer los tiempos parciales
+	Escribir "Ingrese el primer tiempo parcial (en horas):"
+	
+	
+	Leer tiempo1
+	
+	Escribir "Ingrese el segundo tiempo parcial (en horas):"
+	Leer tiempo2
+	
+	Escribir "Ingrese el tercer tiempo parcial (en horas):"
+	Leer tiempo3
+	
+	// Sumar los tiempos
+	tiempoTotal <- tiempo1 + tiempo2 + tiempo3
+	
+	// Mostrar el resultado
+	Escribir "El tiempo total de viaje es: ", tiempoTotal, " horas"
+	
+
+	
+FinAlgoritmo
+
+Algoritmo totalServicios
+	
+    // Declarar variables
+    Definir luz, agua, internet, total Como Real
+	
+    // Leer el consumo de cada servicio
+    Escribir "Ingrese el monto a pagar por el servicio de LUZ:"
+    Leer luz
+	
+    Escribir "Ingrese el monto a pagar por el servicio de AGUA:"
+    Leer agua
+	
+    Escribir "Ingrese el monto a pagar por el servicio de INTERNET:"
+    Leer internet
+	
+    // Sumar los consumos
+    total <- luz + agua + internet
+	
+    // Mostrar el resultado
+    Escribir ""
+    Escribir "El total a pagar por los tres servicios es: $", total
+
+	
+FinAlgoritmo
+
+
+Algoritmo CostoImpresion
+	
+    // Declarar variables
+    Definir paginas Como Entero
+    Definir precioPorPagina, costoTotal Como Real
+	
+    // Leer la cantidad de p�ginas
+    Escribir "Ingrese la cantidad de p�ginas a imprimir:"
+    Leer paginas
+	
+    // Leer el precio por cada p�gina
+    Escribir "Ingrese el precio por cada p�gina:"
+    Leer precioPorPagina
+	
+    // Calcular el costo total
+    costoTotal <- paginas * precioPorPagina
+	
+    // Mostrar el resultado
+    Escribir "El costo total de la impresi�n es: $", costoTotal
+
+	
+FinAlgoritmo
+
+
+
+
